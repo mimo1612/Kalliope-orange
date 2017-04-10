@@ -6,6 +6,5 @@
 
   tasks:
     - name: "Install pip dependencies"
-      pip:
-        name: porange
-    
+      debug:
+          msg: "I do nothing at all"
