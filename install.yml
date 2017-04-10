@@ -8,5 +8,4 @@
     - name: "Install pip dependencies"
       pip:
         name: porange
-        version: 1.0
     
