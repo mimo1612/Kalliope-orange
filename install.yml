@@ -1,11 +1,12 @@
 ---
 - name: Orange Tv
-    hosts: '192.168.1.55'
-    gather_facts: no
-    connection: local
+  hosts: localhost
+  gather_facts: no
+  connection: local
 
   tasks:
     - name: "Install pip dependencies"
       pip:
         name: porange
+        version: 1.0
     
