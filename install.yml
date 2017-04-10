@@ -1,6 +1,6 @@
 ---
 - name: Orange Tv
-    host: 192.168.1.55
+    hosts: 192.168.1.55
     gather_facts: no
     connection: local
 
