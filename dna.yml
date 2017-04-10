@@ -1,0 +1,10 @@
+---
+    name: "orange"
+    type: "neuron"
+    author: "mimo1612"
+    
+    kalliope_supported_version:
+        - 0.4
+
+    tags:
+        - "orange"
